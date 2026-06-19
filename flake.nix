@@ -9,7 +9,7 @@
     };
   };
 
-  outputs = { self, nix-pkgs, home-manager }:
+  outputs = { self, nixpkgs, home-manager }:
     let
       system = "x86-64-linux";
       hostname = "nixos";
