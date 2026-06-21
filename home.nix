@@ -59,7 +59,7 @@
         rebuild = "sudo nixos-rebuild switch --flake .#nixos";
     };
     initContent = ''
-      eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/theme.omp.json)"
+      eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/theme.omp.json)"
     '';
 
   };
