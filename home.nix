@@ -56,6 +56,10 @@
       # nixos rebuild
         rebuild = "sudo nixos-rebuild switch --flake .#nixos";
     };
+    initContent = ``
+      eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/theme.omp.json)"
+    ``;
+
   };
 
   xdg.configFile."nvim".source = ./.config/nvim;
