@@ -53,7 +53,7 @@
       z = "zoxide";
 
       # nixos rebuild
-        rebuild = "sudo nixos-rebuild switch --flake .#nixos";h
+        rebuild = "sudo nixos-rebuild switch --flake .#nixos";
     };
   };
 
