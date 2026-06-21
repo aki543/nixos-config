@@ -4,8 +4,10 @@
 {
   home.username = "aki543";
   home.homeDirectory = "/home/aki543";
-
   home.stateVersion = "24.11";
+
+  xdg.configFile."oh-my-posh".source = ./.config/ohmyposh;
+  xdg.configFile."nvim".source = ./.config/nvim;
 
   programs.git = {
     enable = true;
@@ -62,14 +64,12 @@
 
   };
 
-  xdg.configFile."nvim".source = ./.config/nvim;
   programs.neovim = {
     enable = true;
     viAlias = true;
     vimAlias = true;
   };
 
-  xdg.configFile."oh-my-posh".source = ./.config/ohmyposh;
 
   home.packages = with pkgs; [
     ripgrep
