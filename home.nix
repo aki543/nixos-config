@@ -17,7 +17,7 @@
       rerere.enabled = true;
       init.defaultBranch = "main";
       color.ui = "auto";
-      core.ditor = "navim";
+      core.editor = "nvim";
       merge.conflictsytyle = "zdiff3";
       # ghq.root = /home/$(USER)/.ghq;
       ghq.root = /home/aki543/.ghq;
