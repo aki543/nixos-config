@@ -69,5 +69,6 @@
     ripgrep
     fd
     jq
+    eza
   ];
 }
