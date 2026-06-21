@@ -33,7 +33,7 @@
   };
 
   programs.zsh = {
-    enable = true;J
+    enable = true;
 
     shellAliases = {
       # eza aliases
