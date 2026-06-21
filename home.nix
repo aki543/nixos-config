@@ -77,5 +77,8 @@
     jq
     eza
     oh-my-posh
+    curl
+    tar
+    tree-sitter
   ];
 }
