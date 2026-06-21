@@ -20,7 +20,7 @@
       core.editor = "nvim";
       merge.conflictsytyle = "zdiff3";
       # ghq.root = /home/$(USER)/.ghq;
-      ghq.root = /home/aki543/.ghq;
+      ghq.root = "/home/aki543/.ghq";
 
       alias = {
         st = "status";
@@ -53,7 +53,7 @@
       z = "zoxide";
 
       # nixos rebuild
-      rebuild = "sudo nixos-rebuild switch --flake .#nixos";
+        rebuild = "sudo nixos-rebuild switch --flake .#nixos";h
     };
   };
 
