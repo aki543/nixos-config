@@ -67,10 +67,13 @@
   #   ];
   # };
   users.users.aki543 = {
+    programs.zsh.enable = true;
+    shell = pkgs.zsh;
+
     isNormalUser = true;
     # descritpion = "aki543";
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
-    shell = pkgs.zsh;
+
     openssh.authorizedKeys.keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBMku3wQiT1FBkwp7903pfrmNYXAqDxxwEmI3u1HXbrO maruyama@surface"
     ];
