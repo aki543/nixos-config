@@ -65,10 +65,13 @@
     vimAlias = true;
   };
 
+  xdg.configFile."oh-my-posh".source = ./.config/ohmyposh;
+
   home.packages = with pkgs; [
     ripgrep
     fd
     jq
     eza
+    oh-my-posh
   ];
 }
