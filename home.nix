@@ -19,6 +19,7 @@
       color.ui = "auto";
       core.editor = "nvim";
       merge.conflictsytyle = "zdiff3";
+      # TODO:
       # ghq.root = /home/$(USER)/.ghq;
       ghq.root = "/home/aki543/.ghq";
 
