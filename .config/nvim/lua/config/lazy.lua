@@ -20,13 +20,16 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
     -- Plugins
-    { import = "lazyvim.plugins.extras.lang.markdown" },
-    { import = "lazyvim.plugins.extras.lang.terraform" },
-    { import = "lazyvim.plugins.extras.lang.yaml" },
-    { import = "lazyvim.plugins.extras.lang.docker" },
-    { import = "lazyvim.plugins.extras.lang.ansible" },
-    { import = "lazyvim.plugins.extras.lang.toml" },
-    -- { import = "lazyvim.plugins.extras.lang.nix" },
+
+    -- WARN: bug verify
+    -- { import = "lazyvim.plugins.extras.lang.markdown" },
+    -- { import = "lazyvim.plugins.extras.lang.terraform" },
+    -- { import = "lazyvim.plugins.extras.lang.yaml" },
+    -- { import = "lazyvim.plugins.extras.lang.docker" },
+    -- { import = "lazyvim.plugins.extras.lang.ansible" },
+    -- { import = "lazyvim.plugins.extras.lang.toml" },
+
+    { import = "lazyvim.plugins.extras.lang.nix" },
 
     { import = "lazyvim.plugins.extras.util.octo" },
     { import = "lazyvim.plugins.extras.util.dot" },
