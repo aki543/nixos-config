@@ -15,7 +15,7 @@
     extraConfig = {
       pull.rebase = true;
       rerere.enabled = true;
-      init = defaultBranch = "main";
+      init.defaultBranch = "main";
       color.ui = "auto";
       core.ditor = "navim";
       merge.conflictsytyle = "zdiff3";
