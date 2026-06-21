@@ -37,23 +37,23 @@
 
     shellAliases = {
       # eza aliases
-      alias ls = "eza --icons"
-      alias ll = "eza -l --icons"
-      alias la = "eza -la --icons"
-      alias lla = "eza -lha --icons"
-      alias lt = "eza --tree --level=2 --icons"
+      ls = "eza --icons";
+      ll = "eza -l --icons";
+      la = "eza -la --icons";
+      lla = "eza -lha --icons";
+      lt = "eza --tree --level=2 --icons";
 
       # clear
-      alias c = "clear"
+      c = "clear";
 
       # nvim
-      alias nv = "nvim"
+      nv = "nvim";
 
       # zoxide
-      alias z = "zoxide"
+      z = "zoxide";
 
       # nixos rebuild
-      alias rebuild = "sudo nixos-rebuild switch --flake .#nixos"
+      rebuild = "sudo nixos-rebuild switch --flake .#nixos";
     };
   };
 
