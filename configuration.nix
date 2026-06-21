@@ -67,7 +67,6 @@
   #   ];
   # };
   users.users.aki543 = {
-    programs.zsh.enable = true;
     shell = pkgs.zsh;
 
     isNormalUser = true;
@@ -152,5 +151,8 @@
 
   system.stateVersion = "26.05"; # Did you read the comment?
 
+
+
+  programs.zsh.enable = true;
 }
 
