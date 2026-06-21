@@ -19,7 +19,8 @@
       color.ui = "auto";
       core.ditor = "navim";
       merge.conflictsytyle = "zdiff3";
-      ghq.root = /home/$(USER)/.ghq;
+      # ghq.root = /home/$(USER)/.ghq;
+      ghq.root = /home/aki543/.ghq;
 
       alias = {
         st = "status";
