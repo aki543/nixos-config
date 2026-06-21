@@ -49,7 +49,10 @@
       alias nv = "nvim"
 
       # zoxide
-      alias z = "zoxide""
+      alias z = "zoxide"
+
+      # nixos rebuild
+      alias rebuild = "sudo nixos-rebuild switch --flake .#nixos"
     };
   };
 
